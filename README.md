@@ -6,6 +6,8 @@ This Ansible callback plugin provides a concise summary of task failures at the 
 - **Soft failed tasks:** Tasks that failed with ignore_errors enabled
 - **Rescued tasks:** Failures that were rescued by a rescue block
 
+![callback_failed_summary](https://github.com/user-attachments/assets/4ecb2ce7-f14d-407d-86aa-3baab7f0d7dd)
+
 ## Features
 - **Customizable Output:**
     Supports optional display of *soft failures (ignore_errors)* and *rescued tasks* via internal toggles:
